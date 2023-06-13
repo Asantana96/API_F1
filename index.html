@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="static/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+
+    <form name="testData" id="testDataForm">
+        <label for="season">Season</label>
+        <input type="text" name="season" id="season">
+
+        <label for="round">Round</label>
+        <input type="text" name="round" id="round">
+
+        <button type="submit" id="submitButton">Submit Me</button>
+    </form>
+
+    <table id="racerTable">
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Driver</th>
+                <th>Points</th>
+                <th>Wins</th>
+                <th>Constructor</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
